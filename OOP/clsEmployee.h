@@ -15,8 +15,8 @@ private:
 
 public:
 
-    clsEmployee(int ID, string FirstName, string LastName, string Email, string Phone, string Title, string Department, float Salary)
-        : clsPerson(ID, FirstName, LastName, Email, Phone)
+    clsEmployee(string ID, string FirstName, string LastName, string Email, string Phone, string Title, string Department, float Salary)
+        : clsPerson(ID, FirstName, LastName, Email)
 
     {
 

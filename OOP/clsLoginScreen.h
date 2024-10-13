@@ -69,6 +69,7 @@ public:
 	{
 		system("cls");
 		_DrawScreenHeader("\t  Login Screen");
+		_ShowDates();
 		_Login();
 	}
 

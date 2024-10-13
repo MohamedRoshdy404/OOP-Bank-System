@@ -3,13 +3,15 @@ i:{00000000-0000-0000-0000-000000000000}:OOP.sln
 ++OOP
 i:{00000000-0000-0000-0000-000000000000}:OOP
 ++References
-i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:{263C3FE7-A400-44C8-98E2-9B083E76C313}
+i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:{6588AE7A-1F4F-4133-9AF6-DBD932971827}
 ++External Dependencies
-i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:{22F5517D-3DDC-4700-BBB0-D2232473A410}
+i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:{6D6A05F0-F8E4-404C-BC5C-A7BB4EFD6A02}
 ++Header Files
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:Header Files
 ++clsAddNewClientScreen.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsAddNewClientScreen.h
+++clsAddNewUserScreen.h
+i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsAddNewUserScreen.h
 ++clsBankClient.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsBankClient.h
 ++clsClientListScreen.h
@@ -18,16 +20,20 @@ i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\O
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsDate.h
 ++clsDeleteClientScreen.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsDeleteClientScreen.h
+++clsDeleteUserScreen.h
+i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsDeleteUserScreen.h
 ++clsDepositScreen.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsDepositScreen.h
-++clsEmployee.h
-i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsEmployee.h
 ++clsFindClientScreen.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsFindClientScreen.h
+++clsFindUserScreen.h
+i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsFindUserScreen.h
 ++clsInputValidate.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsInputValidate.h
 ++clsListUsersScreen.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsListUsersScreen.h
+++clsLoginScreen.h
+i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsLoginScreen.h
 ++clsMainScreen.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsMainScreen.h
 ++clsManageUsersScreen.h
@@ -46,12 +52,16 @@ i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\O
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsTransactionsScreen.h
 ++clsUpdateClientScreen.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsUpdateClientScreen.h
+++clsUpdateUserScreen.h
+i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsUpdateUserScreen.h
 ++clsUser.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsUser.h
 ++clsUtil.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsUtil.h
 ++clsWithdrawScreen.h
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsWithdrawScreen.h
+++Global.h
+i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\Global.h
 ++Resource Files
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:Resource Files
 ++Source Files
@@ -332,7 +342,3 @@ e:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDI
 e:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\COMMUNITY\VC\TOOLS\MSVC\14.30.30705\INCLUDE\ZMMINTRIN.H
 ++OOP.cpp
 i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\OOP.cpp
-++clsAddNewUserScreen.h
-i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsAddNewUserScreen.h
-++clsDeleteUserScreen.h
-i:{b5f526c3-7cfb-408c-b818-58f38d44e462}:C:\Users\Programming\source\repos\OOP\OOP\clsDeleteUserScreen.h
