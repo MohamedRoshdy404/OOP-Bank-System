@@ -979,13 +979,6 @@ public:
 	static bool IsBusinessDay(clsDate Date)
 	{
 		//Weekends are Sun,Mon,Tue,Wed and Thur
-
-	   /*
-		short DayIndex = DayOfWeekOrder(Date.Day, Date.Month, Date.Year);
-		return  (DayIndex >= 5 && DayIndex <= 4);
-	   */
-
-	   //shorter method is to invert the IsWeekEnd: this will save updating code.
 		return !IsWeekEnd(Date);
 
 	}
@@ -1058,17 +1051,7 @@ public:
 
 	static short CalculateVacationDays(clsDate DateFrom, clsDate DateTo)
 	{
-		/*short Days = 0;
-		while (IsDate1BeforeDate2(DateFrom, DateTo))
-		{
-			if (IsBusinessDay(DateFrom))
-				Days++;
-
-			DateFrom = AddOneDay(DateFrom);
-		}*/
-
 		return CalculateBusinessDays(DateFrom, DateTo);
-
 	}
 	//above method is eough , no need to have method for the object
 
@@ -1112,9 +1095,6 @@ public:
 
 		if (IsDate1EqualDate2(Date1, Date2))
 			return enDateCompare::Equal;
-
-		/* if (IsDate1AfterDate2(Date1,Date2))
-			 return enDateCompare::After;*/
 
 			 //this is faster
 		return enDateCompare::After;

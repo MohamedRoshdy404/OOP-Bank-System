@@ -15,6 +15,6 @@ C:\Users\Programming\source\repos\OOP\OOP\clsUpdateClientScreen.h(47,66): warnin
 C:\Users\Programming\source\repos\OOP\OOP\clsUtil.h(64,1): warning C4102: 'defualt': unreferenced label
 C:\Users\Programming\source\repos\OOP\OOP\clsTotalBalancesScreen.h(57,82): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
 C:\Users\Programming\source\repos\OOP\OOP\clsBankClient.h(312): warning C4715: 'clsBankClient::Save': not all control paths return a value
-C:\Users\Programming\source\repos\OOP\OOP\clsUser.h(308): warning C4715: 'clsUser::Save': not all control paths return a value
 C:\Users\Programming\source\repos\OOP\OOP\clsBankClient.h(376): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
+C:\Users\Programming\source\repos\OOP\OOP\clsUser.h(308): warning C4715: 'clsUser::Save': not all control paths return a value
   OOP.vcxproj -> C:\Users\Programming\source\repos\OOP\x64\Debug\OOP.exe
