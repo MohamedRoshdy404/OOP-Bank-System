@@ -52,7 +52,7 @@ public:
     static void ShowUpdateClientScreen()
     {
 
-        if (!CheckAccessRights(clsUser::enPermissions::pManageUsers))
+        if (!CheckAccessRights(clsUser::enPermissions::pUpdateClients))
         {
             return;
         }
