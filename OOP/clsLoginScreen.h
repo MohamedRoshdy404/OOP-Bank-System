@@ -12,26 +12,28 @@ class clsLoginScreen : protected clsScreen
 
 private:
 
-	static void _Login()
+	static bool _Login()
 	{
 
-		short Counter = 0;
+		short FaildLoginCount = 0;
 
 		bool loginFaild = false;
 
 		string Username, Password;
 		do
 		{
-			Counter++;
-
-			if (Counter <= 4)
-			{
-
 				if (loginFaild)
 				{
-					cout << "\nInvalaid Username/Password , Number of login attempts [ 3 ]";
-					cout << "\nTry number [ " << Counter - 1 << " ]";
-					_sleep(1000);
+					FaildLoginCount++;
+					cout << "\nInvalaid Username/Password!";
+					cout << "\nYou have [ " << (3 - FaildLoginCount) << " ]" << endl;
+					//_sleep(1000);
+				}
+
+				if (FaildLoginCount == 3)
+				{
+					cout << "You are not authorized to access the system. Please contact the admin personally to solve the problem." << endl;
+					return false;
 				}
 
 				cout << "\nEnter Username? ";
@@ -45,32 +47,22 @@ private:
 				loginFaild = CurrentUser.IsEmpty();
 
 
-			}
-			else
-			{
-				cout << "You are not authorized to access the system. Please contact the admin personally to solve the problem." << endl;
-				return;
-			}
-
-
-
 		} while (loginFaild);
 
 		cout << "\a";
-		system("color 9");
 		clsMainScreen::ShowMainMenue();
+		return true;
 	}
 
 
 public:
 
 
-	static void ShowLoginScreen()
+	static bool ShowLoginScreen()
 	{
 		system("cls");
 		_DrawScreenHeader("\t  Login Screen");
-		_ShowDates();
-		_Login();
+		return _Login();
 	}
 
 

@@ -13,10 +13,10 @@ private:
     static void _ReadUserInfo(clsUser& User)
     {
         cout << "\nEnter FirstName: ";
-        User.FirstName = clsInputValidate::ReadString();
+        User.FirstName = clsString::UpperFirstLetterOfEachWord(clsInputValidate::ReadString());
 
         cout << "\nEnter LastName: ";
-        User.LastName = clsInputValidate::ReadString();
+        User.LastName = clsString::UpperFirstLetterOfEachWord(clsInputValidate::ReadString());
 
         cout << "\nEnter Email: ";
         User.Email = clsInputValidate::ReadString();

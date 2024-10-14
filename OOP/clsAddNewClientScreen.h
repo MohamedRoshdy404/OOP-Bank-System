@@ -5,17 +5,16 @@
 #include "clsBankClient.h"
 #include "clsInputValidate.h"
 #include <iomanip>
-
 class clsAddNewClientScreen : protected clsScreen
 {
 private:
     static void _ReadClientInfo(clsBankClient& Client)
     {
         cout << "\nEnter FirstName: ";
-        Client.FirstName = clsInputValidate::ReadString();
+        Client.FirstName = clsString::UpperFirstLetterOfEachWord(clsInputValidate::ReadString());
 
         cout << "\nEnter LastName: ";
-        Client.LastName = clsInputValidate::ReadString();
+        Client.LastName = clsString::UpperFirstLetterOfEachWord(clsInputValidate::ReadString());
 
         cout << "\nEnter Email: ";
         Client.Email = clsInputValidate::ReadString();

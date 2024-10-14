@@ -18,6 +18,9 @@ protected:
             cout << "\n\t\t\t\t\t  " << SubTitle;
         }
         cout << "\n\t\t\t\t\t______________________________________\n\n";
+        cout << "\n\t\t\t\t\tUser: " << CurrentUser.UserName << "\n";
+        cout << "\t\t\t\t\tUser: " << clsDate::DateToString(clsDate()) << "\n";
+
     }
 
 
@@ -34,11 +37,6 @@ protected:
         {
             return true;
         }
-    }
-
-    static void _ShowDates()
-    {
-        cout << "Date: \n";
     }
 
 };

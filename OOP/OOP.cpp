@@ -1,14 +1,18 @@
 #include <iostream>
 #include "clsLoginScreen.h"
+
 int main()
 {
 
+	
 	while (true)
 	{
-		system("Color 9");
-		clsLoginScreen::ShowLoginScreen();
-	}
+		//system("Color 9");		
+		if (!clsLoginScreen::ShowLoginScreen())
+		{
+			break;
+		}
 
-    system("pause>0");
+	}
     return 0;
 }
